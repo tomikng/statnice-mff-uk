@@ -11,12 +11,8 @@
             "id": "3ca080eb175c80f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Společná informatika/Tomas/ads/Bookmarks in Pruvodce.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Společná informatika/Tomas/ads/Bookmarks in Pruvodce.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Společná informatika/Tomas/ads/Bookmarks in Pruvodce.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Společná informatika/Tomas/ads/Bookmarks in Pruvodce.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,9 +140,11 @@
   },
   "active": "3ca080eb175c80f4",
   "lastOpenFiles": [
+    "Společná matematika/Tomas/logika/nail062.md",
+    "Společná matematika/Tomas/logika/nail062log/Výroková logika.md",
+    "Společná informatika/Tomas/ads/Bookmarks in Pruvodce.md",
     "Společná matematika/Tomas/logika/nail062log/Věta o konstantách (logika).md",
     "Společná matematika/Tomas/logika/nail062log/Věta o kompaktnosti (logika).md",
-    "Společná matematika/Tomas/logika/nail062log/Výroková logika.md",
     "Společná matematika/Tomas/logika/nail062log/Výrok (výroková formule).md",
     "Společná matematika/Tomas/logika/nail062log/Unifikační algoritmus.md",
     "Společná matematika/Tomas/logika/nail062log/Teorie (logika).md",
@@ -172,8 +166,6 @@
     "Společná matematika/Tomas/logika/nail062log/LI-rezoluce a Horn-SAT.md",
     "Společná matematika/Tomas/logika/nail062log/Kongruence struktury.md",
     "Společná matematika/Tomas/logika/nail062log/Kanonický model.md",
-    "Společná matematika/Tomas/logika/nail062log/Jazyk (logika).md",
-    "Společná matematika/Tomas/logika/nail062log/Izomorfmismus struktur.md",
     "Společná matematika/Tomas/logika/nail062log",
     "Společná informatika/Tomas/ads",
     "Společná informatika/Tomas/autogramy/automaty.pdf",
