@@ -11,12 +11,8 @@
             "id": "3ca080eb175c80f4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Společná matematika/Tomas/Untitled.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Společná matematika/Tomas/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Společná matematika/Tomas/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Společná matematika/Tomas/Untitled.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -148,16 +140,22 @@
   },
   "active": "3ca080eb175c80f4",
   "lastOpenFiles": [
-    "studijni-plany-karolinka-2020-2021_oprava-harm.pdf",
+    "Společná matematika/Tomas/past/skripta.pdf",
+    "Společná matematika/Tomas/past/sources.md",
+    "Společná matematika/Tomas/past/sources",
+    "Společná matematika/Tomas/past/past.pdf",
+    "Společná matematika/Tomas/past",
+    "Společná matematika/Tomas/past.md",
+    "Společná matematika/Tomas/Společná matematika notes.md",
+    "Společná matematika/Tomas/README.md",
     "Společná matematika/David Duong/Matematika.pdf",
+    "studijni-plany-karolinka-2020-2021_oprava-harm.pdf",
     "Společná matematika/David Duong/Matematika.docx",
     "Priklady/student-079.pdf",
     "Priklady/student-069.pdf",
     "Priklady/student-046.pdf",
     "Priklady/student-003.pdf",
-    "Priklady",
     "Databáze a web/Tomas/README.md",
-    "Společná matematika/Tomas/Untitled.md",
     "Welcome.md"
   ]
 }
