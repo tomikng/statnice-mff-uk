@@ -1,2 +1,2 @@
-# statnice-mff-uk
+# Materiály na státnice MFF UK
 Příprava na státnice MFF UK
