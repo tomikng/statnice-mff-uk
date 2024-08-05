@@ -1,0 +1,61 @@
+---
+tags:
+  - nail062log
+---
+**Extenze o definice**
+- Druh konzervativní extenze - můžeme nahradit výskyt jeho definicí pro $T'$-ekvivalentní formuli v původním jazyce $L$
+-  **(L6) Vlastnosti extenze o definice.**
+	- Každý model $T$ lze jednoznačně expandovat na $T'$
+		- stačí přídat relační symboly
+	- $T'$ je konzervativní extenze $T$
+		- <=> $M_{L}(T')=M_{L}(T)$
+		- $T'$ je extenzí $T$ <=> Redukt každého modelu T' na L je modelem T
+			- $\implies$
+				- $T'$ je extenzí $T$
+				- $\mathcal{A'} \models T'$, $\mathcal{A}$ je redukt na $L$
+				- => $\mathcal{A}' \models T' \models \varphi_{L} \in T_{L}$
+					- v $T'$ platí všechny výroky z $T$
+				- => $\mathcal{A}' \models \varphi_{L}$ => $\mathcal{A} \models \varphi_L$
+					- [I] výrok používá pouze jazyk $L$, proto platí i v $T$
+				- => $\mathcal{A} \models T$
+			- $\impliedby$
+				- Redukt každého modelu $\mathcal{A}' \models T'$ do $L$ je modelem $\mathcal{A} \models T$
+				- $\mathcal{A} \models T \models \varphi_{L} \Rightarrow \mathcal{A}' \models T' \models \varphi_{L}$
+					- $\varphi$ je sentence
+		- $T'$ je extenzí $T$ a každý model $T$ lze expandovat do $L'$ na model $T'$ => $T'$ je konzervativní extenzí $T$
+			- Pro sentenci $T' \models \varphi_{L}$
+			- Každý model $\mathcal{A}\models T$ lze expandovat na $\mathcal{A'}\models T'$
+			- Víme, že $\mathcal{A}'\models \varphi$ => $\mathcal{A}\models \varphi$ => $T \models \varphi$
+			- => $M_{L}(T)=M_{L}(T')$
+	- Pro každou $\varphi'_{L'}$ existuje ekvivalentní $\exists \varphi_{L}$: $T\models \varphi' \leftrightarrow \varphi$
+		- Máme formuli s novými symboly, chceme ekvivalentní formuli nad původním jazykem
+			- u více výskytů funkcí aplikujeme několikrát ze vnitřních ven
+		- $f(x_{1},\dots,x_{n}) = y \leftrightarrow \psi(x_{1},\dots,x_{n},y)$: $$\varphi = (\exists z)(\varphi^{*}\wedge \psi'(x_{1} / t_{1},\dots ,x_{n} / t_{n} , y / z))$$
+			- $\varphi^{*}$ vznikne z $\varphi'$ nahzarením funkčního termu novou proměnnou $z$
+			- $\psi'$ je varianta, která zaručuje substituovatelnost
+			- musíme zaručit existenci $z$
+			- Výrok platí <=> platí původní výrok po dosazení $z=f(\bar{t})$ $\wedge$ platí definice funkce při dosazení argumentů a výsledku $z$ a ten existuje
+		- $a=(f(t_{1},\dots,t_{n}))^{\mathcal{A}}[e]$
+		- díky existenci a jednoznačnosti, $\mathcal{A} \models \psi'(x_{1} / t_{1},\dots,y / z)[e] \Leftrightarrow e(z)=a$
+		- $\mathcal{A} \models \varphi[e] \Leftrightarrow \mathcal{A}\models \varphi^{*}[e(z /  a)] \Leftrightarrow \mathcal{A} \models \varphi'[e]$
+- **Relačního symbolu**:
+	- $L'$-rozšíření $L$ o nový relační symbol $R^{n}$ definujeme jako formuli $\psi$ na $n$ proměnných: $$T' = T \cup \{R(x_{1},\dots,x_{n}) \leftrightarrow \psi(x_{1},\dots,x_{n})\}$$
+- **Funkčního symbolu**
+	- pomocí axiomů ošetříme **existenci** a **jednoznačnost** funkce: $$\begin{gather}
+(\exists y)\psi(x_{1},\dots,x_{n},y)\\ \psi(x_{1},\dots,x_{n},y) \wedge \psi(x_{1},\dots,x_{n},z) \to y = z
+\end{gather}$$
+	- pak extenze $T$ o definici $f_{n}$ formulí $\psi_{n+1}$ je $L'$-teorie: $$T' = T \cup \{f(x_{1},\dots,x_{n}) = y \leftrightarrow \psi(x_{1},\dots,x_{n},y)\}$$
+	- pro term $\psi=t$ axiomy existence a jednoznačnosti vždy platí
+- **Konstantního symbolu**
+	- $=f_{0}$
+	- axiomy existence a jednoznačnosti: $$\begin{gather} (\exists y)\psi(y) \\ \psi(y) \wedge  \psi(z) \to y  = z \end{gather}$$
+
+**Definovatelnost ve struktuře**
+- $\varphi(\bar{x})=\varphi(x_{1},\dots,x_{n})$ - výrok s volnými proměnnými
+	- Volné proměnné definují nějakou vlastnost prvku
+- **Množina definovaná formulí** $\varphi$ ve struktuře $\mathcal{A}$ (vlastnost prvků): $$\varphi^\mathcal{A}(\bar{x})=\{\bar{a}\in A^{n}| \mathcal{A} \models \varphi[e(\bar{x}/\bar{a})]\}$$
+	- izolovaných vrcholů, kladných reálných čísel atd.
+- **S parametry** (vlastnost prvků vůči jiným prvkům): $$\varphi^\mathcal{A,\bar{b}}(\bar{x},\bar{y})=\{\bar{a}\in A^{n}| \mathcal{A} \models \varphi[e(\bar{x} / \bar{a}, \bar{y} / \bar{b})]\}$$
+- $Df^{n}(\mathcal{A},B)$ - množina všech definovatelných množin v struktuře $\mathcal{A}$ s parametry z $B \subseteq A$
+	- $\varphi(x,y)=E(x,y)$
+	- $\varphi^{\mathcal{G},v}(x,y)$ - množina sousedů vrcholu $v$ ($x$ je vlastnost, $y$ je parametr)

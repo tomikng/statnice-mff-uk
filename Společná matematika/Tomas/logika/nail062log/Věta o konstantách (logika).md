@@ -1,0 +1,40 @@
+---
+tags:
+  - nail062log
+---
+**(L5) Věta o konstantách.**
+- Pro formuli $\varphi$ v jazyce $L$ s volnými proměnnými $x_{1},\dots,x_{n}$
+- $L' \supseteq L$, obsahuje nové konstantní symboly $c_{1},\dots,c_{n}$, které nepoužíváme v $T'$
+- $T'$ je stejná teorie $T$ nad rozšířeným jazykem $L'$, pak $$T \models \varphi \Leftrightarrow T'\models \varphi(x_{1}/c_{1},\dots,x_{n}/c_{n})$$
+- Důkaz (z definice):
+	- (pro zbytek konstant indukcí)
+	- $\implies$
+		- Máme model $\mathcal{A}' \models T'$ ($\mathcal{A}' \in M(T)$) a ohodnocení $e': Var \to A'$
+		- Víme: $T\models \varphi$
+			- $\varphi$ platí v každém modelu (struktuře $\mathcal{A}$) teorie $T$
+		- Chceme: $T'\models \varphi(x_{1}/c_{1},\dots,x_{n}/c_{n})$
+			- $\mathcal{A}' \models \varphi(x/c)[e']$
+		- Nechť $\mathcal{A}$ je redukt $\mathcal{A}'$ na $L$ bez konstant
+			- doména zůstává stejná, $A=A'$
+		- $\mathcal{A} \models T$, protože $T=T'$ (T' neobsahuje nové konstantní symboly z L')
+		- $\mathcal{A} \models \varphi$, protože je modelem teorie, která $\varphi$ modeluje => pro libovolné ohodnocení $e: Var \to A$ platí: $\mathcal{A}\models \varphi[e]$
+		- Zvolíme ohodnocení $e(x/c^\mathcal{A'})$ => $\mathcal{A}\models \varphi[e(x/c^\mathcal{A'})]$ => $\mathcal{A}' \models \varphi(x/c)[e]$
+	- $\impliedby$
+		- Máme model $\mathcal{A}$ a ohodnocení $e: Var \to A$
+		- Víme: $T' \models \varphi(x/c)$
+			- $\varphi(x/c)$ platí v každém modelu (struktuře $\mathcal{A'}$) teorie $T'$
+		- Chceme: $T \models \varphi$
+			- $\mathcal{A} \models \varphi[e]$
+		- Nechť $\mathcal{A}$ je expanze $\mathcal{A}$ do $L'$ s konstantami $c^\mathcal{A'}=e(x)$ (konstanta je nějaký prvek $A$)
+		- $\mathcal{A'}\models \varphi(x/c)[e']$ pro libovolné ohodnocení $e'$
+		- Zvolíme ohodnocení $e'=e(x/c^\mathcal{A'})$ => $\mathcal{A}' \models \varphi[e(x/c^\mathcal{A'})]$ <=> $\mathcal{A}\models \varphi[e]$
+		- $\varphi$ neobsahuje $c$, tedy i $\mathcal{A} \models \varphi[e]$ $\blacksquare$
+- Důkaz (stručně):
+	- Konstanty struktury jsou vždy prvky z její domény a $A=A'$ mají stejnou, proto můžeme nahradit volné proměnné libovolnými novými konstantami
+	- $\implies$
+		- Nechť $\mathcal{A'} \models T'$ a $\mathcal{A}$ je jeho $L$-redukt
+		- $\mathcal{A}\models \varphi[e]$ pro libovolné ohodnocení, pak to platí i pro $e'$ s konstantami z $\mathcal{A'}$
+	- $\impliedby$
+		- Nechť  $\mathcal{A} \models T$ pro libovolné ohodnocení $e: Var \to A$ a $\mathcal{A'}$ je jeho $L'$-expanze o konstanty $c_{i}^{\mathcal{A'}}=e(x_{i})$
+		- $\mathcal{A'}\models \varphi(x_{1}/c_{1},\dots,x_{n}/c_{n})[e']$ pro libovolné $e'$, pak platí i $\mathcal{A'}\models \varphi[e]$ 
+		- Konstantní symboly jsou nové => $\mathcal{A}\models \varphi[e]$
