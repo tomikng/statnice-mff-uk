@@ -11,8 +11,12 @@
             "id": "3ca080eb175c80f4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Společná matematika/Tomas/logika/Logika - Lecture Notes Summary.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Společná matematika/Tomas/logika/Logika - Lecture Notes Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Společná matematika/Tomas/logika/Logika - Lecture Notes Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Společná matematika/Tomas/logika/Logika - Lecture Notes Summary.md"
+              }
             }
           }
         ]
@@ -140,6 +148,8 @@
   },
   "active": "3ca080eb175c80f4",
   "lastOpenFiles": [
+    "Společná matematika/Tomas/logika/Logika - Lecture Notes Summary.md",
+    "Společná matematika/Tomas/logika",
     "Společná matematika/Tomas/past/skripta.pdf",
     "Společná matematika/Tomas/past/sources.md",
     "Společná matematika/Tomas/past/sources",
@@ -153,8 +163,6 @@
     "Společná matematika/David Duong/Matematika.docx",
     "Priklady/student-079.pdf",
     "Priklady/student-069.pdf",
-    "Priklady/student-046.pdf",
-    "Priklady/student-003.pdf",
     "Databáze a web/Tomas/README.md",
     "Welcome.md"
   ]
