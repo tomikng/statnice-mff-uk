@@ -11,8 +11,12 @@
             "id": "3ca080eb175c80f4",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Databáze a web/Tomas/Databáze/Notes.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Databáze a web/Tomas/Databáze/Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Databáze a web/Tomas/Databáze/Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Databáze a web/Tomas/Databáze/Notes.md"
+              }
             }
           }
         ]
@@ -140,8 +148,15 @@
   },
   "active": "3ca080eb175c80f4",
   "lastOpenFiles": [
-    "Společná matematika/Tomas/logika/nail062.md",
+    "Databáze a web/Tomas/Datovy management/materialy.md",
+    "Databáze a web/Tomas/Datovy management",
+    "Priklady/student-003.pdf",
+    "Databáze a web/Tomas/Databáze/Notes.md",
+    "Databáze a web/Tomas/Databáze",
+    "Databáze a web/Tomas/Untitled.md",
+    "Databáze a web/Tomas/README.md",
     "Společná matematika/Tomas/logika/nail062log/Výroková logika.md",
+    "Společná matematika/Tomas/logika/nail062.md",
     "Společná informatika/Tomas/ads/Bookmarks in Pruvodce.md",
     "Společná matematika/Tomas/logika/nail062log/Věta o konstantách (logika).md",
     "Společná matematika/Tomas/logika/nail062log/Věta o kompaktnosti (logika).md",
@@ -162,19 +177,12 @@
     "Společná matematika/Tomas/logika/nail062log/Nerozhodnutelnost predikátové logiky.md",
     "Společná matematika/Tomas/logika/nail062log/NAIL062 - Výroková a predikatová logika.md",
     "Společná matematika/Tomas/logika/nail062log/Model jazyka (logika).md",
-    "Společná matematika/Tomas/logika/nail062log/Logika - pokročilé partie.md",
-    "Společná matematika/Tomas/logika/nail062log/LI-rezoluce a Horn-SAT.md",
-    "Společná matematika/Tomas/logika/nail062log/Kongruence struktury.md",
-    "Společná matematika/Tomas/logika/nail062log/Kanonický model.md",
     "Společná matematika/Tomas/logika/nail062log",
     "Společná informatika/Tomas/ads",
     "Společná informatika/Tomas/autogramy/automaty.pdf",
     "Společná informatika/Tomas/autogramy",
     "Společná matematika/Tomas/logika",
     "Společná matematika/Tomas/past/skripta.pdf",
-    "Společná matematika/Tomas/past/sources",
-    "Společná matematika/Tomas/past/past.pdf",
-    "Společná matematika/Tomas/past",
-    "Společná matematika/David Duong/Matematika.pdf"
+    "Společná matematika/Tomas/past/sources"
   ]
 }
