@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "a0dd3da4610b0567",
+        "id": "5dfd3c4d24c2ed5d",
         "type": "tabs",
         "children": [
           {
-            "id": "3ca080eb175c80f4",
+            "id": "738065fc69446d60",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -146,13 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3ca080eb175c80f4",
+  "active": "738065fc69446d60",
   "lastOpenFiles": [
-    "Databáze a web/Tomas/Datovy management/materialy.md",
-    "Databáze a web/Tomas/Datovy management",
-    "Priklady/student-003.pdf",
+    "Společná matematika/Tomas/logika/nail062log/Elementární ekvivalence.md",
+    "README.md",
+    "studijni-plany-karolinka-2020-2021_oprava-harm.pdf",
     "Databáze a web/Tomas/Databáze/Notes.md",
-    "Databáze a web/Tomas/Databáze",
+    "Společná informatika/David Duong/Automaty/Ve nha/duaog.pdf",
+    "Společná informatika/David Duong/Automaty/Ve nha/automaty.pdf",
+    "Společná informatika/David Duong/Automaty/Ve nha/automaty (1).pdf",
+    "Společná informatika/David Duong/Automaty/automaty8.pdf",
+    "Společná informatika/David Duong/Automaty/automaty.pdf",
+    "Společná informatika/David Duong/Automaty/Ve nha",
+    "Společná informatika/David Duong/Automaty/Document 28.pdf",
+    "Společná informatika/David Duong/Automaty",
+    "Databáze a web/David Duong/mds_zkouska.docx",
+    "Databáze a web/Tomas/Datovy management/materialy.md",
     "Databáze a web/Tomas/Untitled.md",
     "Databáze a web/Tomas/README.md",
     "Společná matematika/Tomas/logika/nail062log/Výroková logika.md",
@@ -174,15 +183,6 @@
     "Společná matematika/Tomas/logika/nail062log/Podstruktura (logika).md",
     "Společná matematika/Tomas/logika/nail062log/Normální formy.md",
     "Společná matematika/Tomas/logika/nail062log/Nestandardní model přirozených čísel.md",
-    "Společná matematika/Tomas/logika/nail062log/Nerozhodnutelnost predikátové logiky.md",
-    "Společná matematika/Tomas/logika/nail062log/NAIL062 - Výroková a predikatová logika.md",
-    "Společná matematika/Tomas/logika/nail062log/Model jazyka (logika).md",
-    "Společná matematika/Tomas/logika/nail062log",
-    "Společná informatika/Tomas/ads",
-    "Společná informatika/Tomas/autogramy/automaty.pdf",
-    "Společná informatika/Tomas/autogramy",
-    "Společná matematika/Tomas/logika",
-    "Společná matematika/Tomas/past/skripta.pdf",
-    "Společná matematika/Tomas/past/sources"
+    "Společná matematika/Tomas/logika/nail062log/Nerozhodnutelnost predikátové logiky.md"
   ]
 }
