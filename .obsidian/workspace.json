@@ -8,13 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "738065fc69446d60",
+            "id": "b0e2293386a08734",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Databáze a web/Tomas/Databáze/Notes.md",
+                "file": "Databáze a web/Tomas/Databáze/Databáze - poznámky materiály.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Databáze a web/Tomas/Databáze/Notes.md",
+                "file": "Databáze a web/Tomas/Databáze/Databáze - poznámky materiály.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Databáze a web/Tomas/Databáze/Notes.md",
+                "file": "Databáze a web/Tomas/Databáze/Databáze - poznámky materiály.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Databáze a web/Tomas/Databáze/Notes.md"
+                "file": "Databáze a web/Tomas/Databáze/Databáze - poznámky materiály.md"
               }
             }
           }
@@ -143,46 +144,54 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "738065fc69446d60",
+  "active": "b0e2293386a08734",
   "lastOpenFiles": [
-    "Společná matematika/Tomas/logika/nail062log/Elementární ekvivalence.md",
-    "README.md",
-    "studijni-plany-karolinka-2020-2021_oprava-harm.pdf",
-    "Databáze a web/Tomas/Databáze/Notes.md",
-    "Společná informatika/David Duong/Automaty/Ve nha/duaog.pdf",
-    "Společná informatika/David Duong/Automaty/Ve nha/automaty.pdf",
-    "Společná informatika/David Duong/Automaty/Ve nha/automaty (1).pdf",
-    "Společná informatika/David Duong/Automaty/automaty8.pdf",
-    "Společná informatika/David Duong/Automaty/automaty.pdf",
-    "Společná informatika/David Duong/Automaty/Ve nha",
-    "Společná informatika/David Duong/Automaty/Document 28.pdf",
-    "Společná informatika/David Duong/Automaty",
-    "Databáze a web/David Duong/mds_zkouska.docx",
+    "Databáze a web/Tomas/Databáze/Poznámky/Normální formy.md",
+    "Databáze a web/Tomas/Databáze/Task List.md",
+    "Databáze a web/Tomas/Databáze/Databáze - poznámky materiály.md",
+    "Společná matematika/Tomas/logika/Logika - Lecture Notes Summary.md",
+    "Databáze a web/Tomas/Databáze/Poznámky/Moderní databázové systémy.md",
+    "Databáze a web/Tomas/Databáze/Poznámky/Architektury databázových systémů.md",
+    "Tomas/Tomas - TODO List.md",
+    "Databáze a web/Tomas/Databáze/Poznámky/Transakční zpracování.md",
+    "Tomas/Státnice poznámky, materiály.md",
+    "Společná informatika/Tomas/autogramy/Autogramy - materiály.md",
+    "Společná informatika/Tomas/Společná informatika - poznámky, materiály.md",
+    "Databáze a web/Tomas/Databáze a web - poznámky.md",
+    "Společná informatika/Tomas/autogramy/slidy.pdf",
+    "Společná informatika/Tomas/autogramy/automaty.pdf",
+    "Společná informatika/Tomas/ads/Bookmarks in Pruvodce.md",
+    "Databáze a web/Tomas/Databáze/Poznámky/SQL.md",
+    "Databáze a web/Tomas/Databáze/Exercises/University course enrolment/Conceptual.md",
+    "Databáze a web/Tomas/Databáze/Exercises/University course enrolment/Logical layer.md",
+    "Databáze a web/Tomas/Databáze/Exercises/University course enrolment/Exercise.md",
+    "Databáze a web/Tomas/Databáze/Poznámky",
+    "Tomas",
     "Databáze a web/Tomas/Datovy management/materialy.md",
-    "Databáze a web/Tomas/Untitled.md",
+    "README.md",
+    "Databáze a web/assets/img/Pasted image 20240812114414.png",
+    "Databáze a web/assets/img/Pasted image 20240812114214.png",
+    "studijni-plany-karolinka-2020-2021_oprava-harm.pdf",
+    "Databáze a web/assets/img",
+    "Databáze a web/assets",
+    "Databáze a web/Tomas/Databáze/Exercises/University course enrolment",
+    "Databáze a web/Tomas/Databáze/Exercises",
+    "Databáze a web/assets/img/Pasted image 20240812114130.png",
+    "Databáze a web/assets/img/Pasted image 20240812114156.png",
+    "Databáze a web/assets/img/Pasted image 20240812113553.png",
+    "Excalidraw",
+    "SQL.md",
+    "Databáze a web/assets/img/Pasted image 20240812103348.png",
+    "Databáze a web/assets/img/Pasted image 20240812101435.png",
+    "Společná matematika/Tomas/logika/nail062log/Elementární ekvivalence.md",
     "Databáze a web/Tomas/README.md",
     "Společná matematika/Tomas/logika/nail062log/Výroková logika.md",
     "Společná matematika/Tomas/logika/nail062.md",
-    "Společná informatika/Tomas/ads/Bookmarks in Pruvodce.md",
     "Společná matematika/Tomas/logika/nail062log/Věta o konstantách (logika).md",
-    "Společná matematika/Tomas/logika/nail062log/Věta o kompaktnosti (logika).md",
-    "Společná matematika/Tomas/logika/nail062log/Výrok (výroková formule).md",
-    "Společná matematika/Tomas/logika/nail062log/Unifikační algoritmus.md",
-    "Společná matematika/Tomas/logika/nail062log/Teorie (logika).md",
-    "Společná matematika/Tomas/logika/nail062log/Tablo metoda.md",
-    "Společná matematika/Tomas/logika/nail062log/Syntaxe a semantika výrokové logiky.md",
-    "Společná matematika/Tomas/logika/nail062log/Rezoluční metoda.md",
-    "Společná matematika/Tomas/logika/nail062log/Rekurzivní axiomatizace.md",
-    "Společná matematika/Tomas/logika/nail062log/Problém splnitelnosti.md",
-    "Společná matematika/Tomas/logika/nail062log/Prenexní normální forma.md",
-    "Společná matematika/Tomas/logika/nail062log/Predikátová logika.md",
-    "Společná matematika/Tomas/logika/nail062log/Pravdivostní funkce.md",
-    "Společná matematika/Tomas/logika/nail062log/Podstruktura (logika).md",
-    "Společná matematika/Tomas/logika/nail062log/Normální formy.md",
-    "Společná matematika/Tomas/logika/nail062log/Nestandardní model přirozených čísel.md",
-    "Společná matematika/Tomas/logika/nail062log/Nerozhodnutelnost predikátové logiky.md"
+    "Společná matematika/Tomas/logika/nail062log/Věta o kompaktnosti (logika).md"
   ]
 }

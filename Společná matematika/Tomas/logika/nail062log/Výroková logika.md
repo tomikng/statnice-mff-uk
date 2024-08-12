@@ -9,7 +9,7 @@ tags:
 
 ## Sémantika VL
 [[Model jazyka (logika)]]
-[[Normální formy]]
+[[Společná matematika/Tomas/logika/nail062log/Normální formy]]
 [[Extenze teorie]]
 [[Problém splnitelnosti]]
 [[Horn-SAT]]

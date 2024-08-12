@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "tag:#nail062log  ",
+  "search": "tag:#tomas",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,10 +8,17 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "tag:#nail062log  ",
+      "query": "tag:#databaze_a_web",
       "color": {
         "a": 1,
         "rgb": 14048348
+      }
+    },
+    {
+      "query": "tag:#spolecna_informatika  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
       }
     }
   ],
@@ -25,6 +32,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.7404359846795359,
-  "close": true
+  "scale": 1.305950588838692,
+  "close": false
 }
