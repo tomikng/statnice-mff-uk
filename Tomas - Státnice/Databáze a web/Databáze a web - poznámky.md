@@ -6,3 +6,7 @@ dg-publish: true
 ---
 ## Databáze
 [[Databáze - poznámky materiály]]
+
+## Web
+### Doporučovací systémy
+[[Recommender Systems]]

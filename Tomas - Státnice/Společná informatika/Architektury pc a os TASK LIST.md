@@ -1,4 +1,4 @@
-[[Společná informatika - poznámky, materiály#Architektura počítačů a operačních systémů|Architektura PC a OS]]
+[[Architektury OS a PC - Seznam otázek a materiálů]]
 - [x] **Základní architektura počítače** ✅ 2024-08-15
     - [x] reprezentace a přístup k datům v paměti, adresa, adresový prostor ✅ 2024-08-15
     - [x] ukládání jednoduchých a složených datových typů ✅ 2024-08-15
@@ -11,9 +11,9 @@
     - [x] privilegovaný a neprivilegovaný režim procesoru ✅ 2024-08-15
     - [x] jádro operačního systému ✅ 2024-08-15
 
-- [ ] **Rozhraní periferních zařízení a jejich obsluha**
-    - [ ] Popsat roli řadiče zařízení při programem řízené obsluze zařízení (PIO)
-    - [ ] Popsat roli přerušení při programem řízené obsluze zařízení (PIO)
+- [x] **Rozhraní periferních zařízení a jejich obsluha** ✅ 2024-08-15
+    - [x] Popsat roli řadiče zařízení při programem řízené obsluze zařízení (PIO) ✅ 2024-08-15
+    - [x] Popsat roli přerušení při programem řízené obsluze zařízení (PIO) ✅ 2024-08-15
 
 - [ ] **Základní abstrakce, rozhraní a mechanizmy OS pro běh programů, sdílení prostředků a vstup/výstup**
     - [ ] neprivilegované (uživatelské) procesy

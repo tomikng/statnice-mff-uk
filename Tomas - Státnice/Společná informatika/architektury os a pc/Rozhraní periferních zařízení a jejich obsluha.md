@@ -6,6 +6,9 @@ tags:
   - tomas
 ---
 [[Example of Implementing Controller]]
+> [!NOTE] ChatGPT
+> Vygenerováno pomocí ChatGPT
+
 **Rozhraní periferních zařízení a jejich obsluha** se týká způsobu, jakým počítač komunikuje s různými externími zařízeními, jako jsou myš, klávesnice, diskové jednotky, tiskárny atd. Tento proces zahrnuje jak hardware, tak software, a klíčovou roli v tomto hraje **řadič zařízení** a **přerušení**.
 
 ### 1. Roli řadiče zařízení při programem řízené obsluze zařízení (PIO)
