@@ -8,5 +8,7 @@ dg-publish: true
 [[Databáze - poznámky materiály]]
 
 ## Web
-### Doporučovací systémy
-[[Recommender Systems]]
+[[Web - seznam otázek, materiály a poznámky]]
+
+## Datovy management
+[[Datový management - poznamky a materialy]]

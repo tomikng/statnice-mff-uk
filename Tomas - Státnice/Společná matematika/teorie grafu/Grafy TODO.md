@@ -1,0 +1,21 @@
+- [x] Základní pojmy teorie grafů 
+	- [x] graf, vrcholy a hrany, izomorfismus grafů, podgraf, okolí vrcholu a stupeň vrcholu, doplněk grafu, bipartitní graf 
+- [x] Základní příklady grafů 
+	- [x] úplný graf a úplný bipartitní graf, cesty a kružnice 
+- [x] Souvislost grafů, komponenty souvislosti, vzdálenost v grafu 
+- [x] Stromy 
+	- [x] definice a základní vlastnosti (existence listů, počet hran stromu) 
+	- [x] ekvivalentní charakteristiky stromů 
+- [ ] Rovinné grafy 
+	- [ ] definice a základní pojmy (rovinný graf a rovinné nakreslení grafu, stěny) 3 
+	- [x] Eulerova formule a maximální počet hran rovinného grafu (důkaz a použití) 
+- [x] Barevnost grafů 
+	- [x] definice dobrého obarvení 
+	- [ ] vztah barevnosti a klikovosti grafu 
+- [x] Hranová a vrcholová souvislost grafů 
+	- [ ] hranová a vrcholová verze Mengerovy věty 
+- [x] Orientované grafy, silná a slabá souvislost 
+- [x] Toky v sítích 
+	- [x] definice sítě a toku v ní 
+	- [x] existence maximálního toku (bez důkazu) 
+	- [x] princip hledání maximálního toku v síti s celočíselnými kapacitami (například pomocí Ford-Fulkersonova algoritmu)

@@ -1,0 +1,41 @@
+- [ ]  Datové formáty. 
+	- [x]  Popsat základní typy strukturovaných dat, uvést jejich reprezentanty a použití. Popsat, ve kterých situacích se který formát hodí, ukázat příklady. 
+	- [x]  Vysvětlit rozdíl mezi pojmy datový model, datový formát a datové schéma. Popsat základní vlastnosti tex-tových formátů, uvést příklady standardizačních organizací, popsat jejich fungování, uvést příklady stan- dardů definujících datové formáty. 
+	- [x]  Uvést, popsat, porovnat a použít modely a formáty pro grafová data - RDF a jeho serializace, Labeled Property Graf. Uvést, popsat a použít slovník pro definici slovníků použitelných v RDF - RDF Schema a uvést příklady použití. Uvést, popsat a použít jazyky pro dotazování a transformaci grafových dat - SPARQL, Cypher. 
+	- [ ]  Uvést, popsat, porovnat a použít formáty pro stromová (hierarchická) data (XML, JSON), uvést, popsat a použít jazyky pro schémata stromových (hierarchických) dat XML Schema a JSON Schema, včetně příkladů. 9 Vysvětlit, jakým způsobem lze zajistit, že na data v JSON lze nahlížet také jako na data v RDF vhodná pro výměnu na Webu (JSON-LD). Popsat a použít jazyk pro transformaci XML dat (XSLT). 
+	- [ ]  Uvést, použít a popsat formát pro tabulková data CSV a jeho specifikace. Popsat použití standardu CSV on the Web pro tvorbu schémat a zajištění, že na data v CSV lze nahlížet také jako na data v RDF vhodná pro výměnu na Webu. 
+	- [ ]  Vysvětlit a ukázat na příkladech, co je to souřadnicový referenční systém v kontextu prostorových dat, a ukázat, jak lze prostorová data reprezentovat v různých formátech, zejména WKT, GML, GeoJSON a GeoSPARQL. 
+	- [x]  Vysvětlit, jak lze sémanticky popsat data pomocí RDF Schema a slovníků jako je Dublin Core či SKOS. Popsat datový model Wikidata a vysvětlit, jak se lze ve Wikidata dotazovat. 
+- [ ]  Procesy zpracování dat 
+	- [x]  Popsat a na příkladu vysvětlit datové operace data selection, data projection, data summarization, data re- duction, data lifting a data lowering. 
+	- [x]  Vysvětlit pojem datové kvality a její důležitost pro uživatele dat. 
+	- [ ]  Uvést příklady dimenzí datové kvality a jejich měření. 
+	- [x]  Na zvoleném příkladu vysvětlit data provenance a ten popsat pomocí PROV-O ontologie. 
+- [ ]  Katalogizace dat, metadata 
+	- [x]  Vyjmenovat druhy metadat a uvést jejich význam. 
+	- [x]  Popsat význam a využití datového katalogu. 
+	- [ ]  Vysvětlit, jak je možné realizovat datový katalog pomocí DCAT (Data Catalog Vocabulary). 
+	- [ ]  Na příkladu ukázat použití DCAT - zejména třídy dcat:Dataset, dcat:DataService, dcat:Distribution a dcat:Catalog. 
+- [ ]  Sémantický popis dat, slovníky 
+	- [ ]  Popsat vznik a řešení problému datových sil. 
+	- [ ]  Popsat výhody využití kontrolovaných slovníků (controlled vocabulary) k popisu dat. 
+	- [x]  Vysvětlit rozdíl mezi typy slovníků (controlled list, taxonomy, thesaurus, classification scheme, ontology). 
+	- [x]  Popsat základní strukturu SKOS (Simple Knowledge Organization System). 
+	- [x]  Definovat ontologii pomocí SKOS a následně jí použít k popisu dat. 
+- [ ]  Základy šifrování a komprese dat 
+	- [x]  Vysvětlit význam Shannonovy věty o kódování zdrojů (Shannon’s source coding theorem) v kontextu komprese dat. 
+	- [ ]  Na příkladech vysvětlit základní myšlenky algoritmů pro kompresi: Run-Length Encoding, Huffman Coding, Lempel-Ziv-Welch a Arithmetic coding. 
+	- [ ]  Vysvětlit pojem digitálního certifikátu a jeho použití. 
+	- [ ]  Vysvětlit potřebu existence PKI (public key infrastructure) ve vztahu k digitálnímu certifikátu. 
+	- [x]  Vysvětlit použití symetrického a asymetrického šifrování v kontextu digitálního certifikátu. 
+- [ ]  Základy indexování 
+	- [x]  Na příkladech vysvětlit práci se základními typy organizace souborů (hromada, sekvenční soubor, indexovaný sekvenční soubor) a jejich (ne)výhody. 
+	- [x]  Vysvětlit a na příkladech demonstrovat pojmy přímé/nepřímé indexování a primární/sekundární index. 
+	- [ ]  Vysvětlit principy hashování na vnější paměti, vybraný konkrétní přístup (např. Cormack, Larson & Kalja, Fagin, …) demonstrovat na příkladu. 
+	- [x]  Vysvětlit, k čemu slouží a jaké jsou výhody hierarchických indexů. Na příkladu demonstrovat datovou strukturu B-strom a související operace. Popsat další modifikace (B+ strom, B* strom). 
+- [ ]  Indexování v prostorových databázích 
+	- [x]  Nakreslit a vysvětlit výhody křivek vyplňujících prostor (Z-křivka, Hilbertova křivka). 
+	- [x]  Pro zadaný příklad nakreslit Quad-tree, vysvětlit princip, výhody a nevýhody. 
+	- [x]  Pro zadaný příklad nakreslit k-d-tree, vysvětlit princip, výhody a nevýhody. 
+	- [ ]  Pro zadaný příklad nakreslit R-strom, vysvětlit princip, výhody a nevýhody. Vysvětlit rozdíly oproti R+ stromu, popř. R* stromu. 
+	- [ ]  Vysvětlit pojem prostorové spojení - princip, problémy. Na příkladu demonstrovat konkrétní přístup podrobněji.

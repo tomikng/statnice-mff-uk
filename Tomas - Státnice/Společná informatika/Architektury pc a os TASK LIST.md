@@ -15,11 +15,11 @@
     - [x] Popsat roli řadiče zařízení při programem řízené obsluze zařízení (PIO) ✅ 2024-08-15
     - [x] Popsat roli přerušení při programem řízené obsluze zařízení (PIO) ✅ 2024-08-15
 
-- [ ] **Základní abstrakce, rozhraní a mechanizmy OS pro běh programů, sdílení prostředků a vstup/výstup**
-    - [ ] neprivilegované (uživatelské) procesy
-    - [ ] sdílení procesoru
-    - [ ] sdílení paměti
-    - [ ] sdílení úložného prostoru
+- [x] **Základní abstrakce, rozhraní a mechanizmy OS pro běh programů, sdílení prostředků a vstup/výstup** ✅ 2024-08-16
+    - [x] neprivilegované (uživatelské) procesy ✅ 2024-08-16
+    - [x] sdílení procesoru ✅ 2024-08-16
+    - [x] sdílení paměti ✅ 2024-08-16
+    - [x] sdílení úložného prostoru ✅ 2024-08-16
 
 - [ ] **Paralelismus, vlákna a rozhraní pro jejich správu, synchronizace vláken**
     - [ ] časově závislé chyby (race conditions)

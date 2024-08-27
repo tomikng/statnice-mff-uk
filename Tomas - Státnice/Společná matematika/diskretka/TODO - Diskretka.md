@@ -1,0 +1,16 @@
+- [x]  Relace 
+	- [x]  vlastnosti binárních relací (reflexivita, symetrie, antisymetrie, tranzitivita) 
+- [ ]  Ekvivalence a rozkladové třídy
+- [x]  Částečná uspořádání
+	- [x]  základní pojmy (minimální a maximální prvky, nejmenší a největší prvky, řetězec, antiřetězec)
+	- [ ]  výška a šířka částečně uspořádané množiny a věta o jejich vztahu (o dlouhém a širokém) 
+- [x]  Funkce 
+	- [x]  typy funkcí (prostá, na, bijekce) 
+	- [ ]  počty různých typů funkcí mezi dvěma konečnými množinami 
+- [x]  Permutace a jejich základní vlastnosti (počet a pevný bod) 
+- [x]  Kombinační čísla a vztahy mezi nimi, binomická věta a její aplikace
+- [ ]  Princip inkluze a exkluze
+	- [x]  obecná formulace (a důkaz) 
+	- [ ]  použití (problém šatnářky, Eulerova funkce pro počet dělitelů, počet surjekcí) 
+- [x]  Hallova věta o systému různých reprezentantů a její vztah k párování v bipartitním grafu 
+	- [ ]  princip důkazu a algoritmické aspekty (polynomiální algoritmus pro nalezení SRR)

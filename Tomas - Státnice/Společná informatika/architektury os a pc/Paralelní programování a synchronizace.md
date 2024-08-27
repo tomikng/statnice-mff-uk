@@ -11,6 +11,7 @@ tags:
 ### 1. **Paralelismus a Vlákna**
    - **Paralelní výpočet:** Paralelismus zahrnuje provádění více výpočtů současně, což může být na úrovni bitů, instrukcí, dat nebo úkolů. Paralelní výpočet rozděluje úlohy mezi více procesorů, aby se urychlil výpočet a efektivně využily dostupné hardwarové zdroje.
    - **Vlákna:** Vlákno je nejmenší jednotka procesu, kterou může CPU naplánovat a vykonat. Více vláken může existovat v rámci jednoho procesu a sdílí stejný paměťový prostor. Toto sdílené prostředí může vést k problémům, jako jsou časově závislé chyby (race conditions), pokud nejsou správně řízena.
+   ![[Pasted image 20240816183204.png]]
 
 ### 2. **Časově Závislé Chyby (Race Conditions)**
    - **Definice:** K časově závislým chybám dochází, když více vláken přistupuje k sdíleným datům v paměti současně a jejich výsledek závisí na pořadí nebo načasování jejich plánování.
@@ -50,5 +51,3 @@ tags:
      - **Aktivní čekání:** Vlákno aktivně testuje podmínku v cyklu, dokud není splněna.
      - **Pasivní čekání:** Vlákno je blokováno, dokud není podmínka splněna a přístup povolen.
    - **Strana v PDF:** Podrobnosti o těchto mechanismech najdete na stranách 7 až 9 v PDF.
-
-Tyto koncepty jsou klíčové pro správnou správu vláken a zajištění toho, aby paralelní a souběžné programy běžely bez chyb. Pro hlubší pochopení doporučuji prostudovat zmíněné strany v PDF, kde jsou uvedeny i kódy a další podrobnosti.

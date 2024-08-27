@@ -8,3 +8,8 @@ dg-home: false
 ## Databáze a web
 - [ ] [[Task List|Databáze]]
 - [ ] 
+## Spolecna matika
+### Diskretka
+- [ ] [[TODO - Diskretka]]
+## Grafy
+- [ ] [[Grafy TODO]]
