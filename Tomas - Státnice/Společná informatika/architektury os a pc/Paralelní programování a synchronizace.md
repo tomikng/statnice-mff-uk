@@ -11,9 +11,12 @@ tags:
 ### 1. **Paralelismus a Vlákna**
    - **Paralelní výpočet:** Paralelismus zahrnuje provádění více výpočtů současně, což může být na úrovni bitů, instrukcí, dat nebo úkolů. Paralelní výpočet rozděluje úlohy mezi více procesorů, aby se urychlil výpočet a efektivně využily dostupné hardwarové zdroje.
    - **Vlákna:** Vlákno je nejmenší jednotka procesu, kterou může CPU naplánovat a vykonat. Více vláken může existovat v rámci jednoho procesu a sdílí stejný paměťový prostor. Toto sdílené prostředí může vést k problémům, jako jsou časově závislé chyby (race conditions), pokud nejsou správně řízena.
-   ![[Pasted image 20240816183204.png]]
+   ![[Pasted image 20240816183204.png]] ^df6511
 
 ### 2. **Časově Závislé Chyby (Race Conditions)**
+
+[[Race conditions| Race conditions v C#]]
+
    - **Definice:** K časově závislým chybám dochází, když více vláken přistupuje k sdíleným datům v paměti současně a jejich výsledek závisí na pořadí nebo načasování jejich plánování.
    - **Příklad:** Představme si třídu `List`, která má metodu `PushFront`, jež přidává nový uzel na začátek seznamu. Pokud dvě vlákna současně zavolají tuto metodu, může dojít k chybě:
 

@@ -1,0 +1,32 @@
+- [ ] **Časová složitost algoritmů**
+  - [x] časová a prostorová složitost algoritmu
+  - [x] měření velikosti dat
+  - [x] složitost v nejlepším, nejhorším a průměrném případě
+  - [ ] asymptotická notace
+- [ ] **Třídy složitosti**
+  - [ ] třídy P a NP
+  - [ ] převoditelnost problémů, NP-těžkost a NP-úplnost
+  - [x] příklady NP-úplných problémů a převodů mezi nimi
+%%
+- [ ] Metoda rozděl a panuj
+  - [ ] princip rekurzivního dělení problému na podproblémy
+  - [ ] výpočet složitosti pomocí rekurentních rovnic
+  - [ ] Master theorem (kuchařková věta) (bez důkazu)
+  - [ ] aplikace
+    - [ ] Mergesort
+    - [ ] násobení dlouhých čísel 
+%%
+- [ ] **Binarní vyhledávací stromy**
+  - [x] definice vyhledávacího stromu
+  - [x] operace s nevyvažovanými stromy
+  - [x] AVL stromy (definice)
+- [ ] **Třídění**
+  - [ ] primitivní třídicí algoritmy (Bubblesort, Insertsort)
+  - [ ] Quicksort
+  - [ ] dolní odhad složitosti porovnávacích třídicích algoritmů
+- [ ] **Grafové algoritmy**
+  - [ ] prohledávání do šířky a do hloubky
+  - [ ] topologické třídění orientovaných grafů
+  - [ ] nejkratší cesty v ohodnocených grafech (Dijkstrův a Bellmanův-Fordův algoritmus)
+  - [ ] minimální kostra grafu (Jarníkův a Borůvkův algoritmus)
+  - [ ] toky v sítích (Ford-Fulkerson algoritmus)
