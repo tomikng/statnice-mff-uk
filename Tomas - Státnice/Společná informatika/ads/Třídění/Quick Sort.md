@@ -62,3 +62,34 @@ namespace ConsoleApp1
 - **Prostorová složitost**: $O(\log n)$ v průměrném a nejlepším případě, což odpovídá hloubce rekurze.
 
 - **V nejhorším případě** (např. při degeneraci na $O(n)$), může prostorová složitost vzrůst až na $O(n)$ kvůli hloubce rekurze.
+
+```python
+def swap(lst, i, j):
+    tmp = lst[i]
+    lst[i] = lst[j]
+    lst[j] = tmp
+    
+def partition(lst, low, high):
+    pivot = lst[high]
+    i = low - 1
+    
+    for j in range(low, high):
+        if lst[j] <= pivot:
+            i += 1
+            swap(lst, i, j)
+    
+    swap(lst, i + 1, high)
+    return i + 1
+
+def quicksort(lst, low, high):
+    if low < high:
+        pi = partition(lst, low, high)
+        
+        quicksort(lst, low, pi - 1)
+        quicksort(lst, pi + 1, high)
+
+lst = [10, 7, 8, 9, 1, 5]
+quicksort(lst, 0, len(lst) - 1)
+print(lst)
+
+```
