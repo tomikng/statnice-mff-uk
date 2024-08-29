@@ -21,7 +21,7 @@
   - [x] operace s nevyvažovanými stromy
   - [x] AVL stromy (definice)
 - [ ] **Třídění**
-  - [ ] primitivní třídicí algoritmy (Bubblesort, Insertsort)
+  - [x] primitivní třídicí algoritmy (Bubblesort, Insertsort)
   - [ ] Quicksort
   - [ ] dolní odhad složitosti porovnávacích třídicích algoritmů
 - [ ] **Grafové algoritmy**
