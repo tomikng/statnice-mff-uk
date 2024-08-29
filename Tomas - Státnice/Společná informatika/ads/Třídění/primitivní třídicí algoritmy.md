@@ -10,35 +10,48 @@ tags:
 
 Vizualizace: https://www.algoritmy.net/article/3/Bubble-sort
 
-```JS
-var swapped = false;
-
-function bubbleSort(array a)
-    for i in 1 -> a.length - 1 do
-
-        swapped = false;
-
-        for j in 1 -> a.length - i - 1 do
-            if a[j] < a[j+1]:
-                prohoď(a[j], a[j+1]); 
-                swapped = true;
-
-        if(!swapped){
-            končíme
-        }
+```C#
+ static void BubbleSort(int[] arr)
+ {
+     bool swapped = false;
+     for (int i = 0; i < arr.Length - 1; i++)
+     {
+         swapped = false;
+         for (int j = 0; j < arr.Length - i - 1; j++)
+         {
+             if (arr[j + 1] < arr[j])
+             {
+                 int tmp = arr[j + 1];
+                 arr[j + 1] = arr[j];
+                 arr[j] = tmp;
+                 swapped = true;
+             }
+         }
+         if (!swapped)
+         {
+             break;
+         }
+     }
+ }
 ```
 
 ## Insertion sort $O(n^2)$
 
 Vizualizace: https://www.algoritmy.net/article/8/Insertion-sort
 
-``` JS
-function insertionSort(array a)
-    for i in 0 -> a.length - 2 do
-        j = i + 1
-        tmp = a[j]
-        while j > 0 AND tmp > a[j-1] do //uvolni misto hodnote
-            a[j] = a[j-1]
-            j--
-        a[j] = tmp //vloz hodnotu
+``` C#
+  public static void InsertionSort(int[] array)
+  {
+      for (int i = 0; i < array.Length - 1; i++)
+      {
+          int j = i + 1;
+          int tmp = array[j];
+          while (j > 0 && tmp < array[j - 1]) // Změněno na tmp < array[j - 1] pro vzestupné třídění
+          {
+              array[j] = array[j - 1];
+              j--;
+          }
+          array[j] = tmp;
+      }
+  }
 ```
