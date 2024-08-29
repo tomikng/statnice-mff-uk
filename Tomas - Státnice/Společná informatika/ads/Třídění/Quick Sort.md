@@ -31,7 +31,7 @@ namespace ConsoleApp1
             if (left < right)
             {
                 int boundary = left;
-                for (int i = left + 1; i <= right; i++)
+                for (int i = left + 1; i < right + 1; i++)
                 {
                     if (array[i] < array[left])
                     {
