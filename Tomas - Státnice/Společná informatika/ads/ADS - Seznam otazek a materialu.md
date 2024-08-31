@@ -57,12 +57,12 @@ tags:
 
 #### **7. 🔗 Grafové algoritmy**
 - **DFS, BFS a jejich aplikace**  
-  - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s5) 📄**5**
+  - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s5) 📄**120**  📄**11x0**
   - [DFS vs BFS: StackOverflow](https://stackoverflow.com/questions/20429310/why-is-depth-first-search-claimed-to-be-space-efficient)
 - **Topologické třídění orientovaných grafů**
 - **Nejkratší cesty (Dijkstra, BF)**  
   - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s6) 
-  - 📄**6**
+  - 📄**146 - 152**
 - **Minimální kostry (Jarník, Borůvka)**  
   - [Odkaz](https://slama.dev/assets/priprava-na-statnice-mff-uk/pruvodce.pdf#s7) 
   - 📄**7**

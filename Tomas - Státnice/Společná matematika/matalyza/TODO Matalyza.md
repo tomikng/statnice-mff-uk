@@ -1,0 +1,30 @@
+  - [x] Posloupnosti reálných čísel a jejich limity 🟩
+    - [x] definice
+    - [x] aritmetika limit
+    - [x] věta o dvou policajtech, limity a uspořádání
+  - [ ] Řady 🟨
+    - [x] definice částečného součtu a součtu
+    - [ ] geometrická řada
+    - [ ] harmonická řada
+  - [ ] Reálné funkce jedné reálné proměnné 🟧
+    - [ ] limita funkce v bodě
+      - [ ] definice1§1§
+      - [x] aritmetika limit
+      - [ ] vztah s uspořádáním
+      - [ ] limita složené funkce
+    - [x] funkce spojité na intervalu
+      - [ ] nabývání mezihodnot
+      - [ ] nabývání maxima
+  - [ ] Derivace a její aplikace 🟦
+    - [ ] definice a základní pravidla pro výpočet
+    - [ ] l’Hospitalovo pravidlo
+    - [ ] vyšetření průběhu funkcí: extrémy, monotonie a konvexita/konkavita
+    - [ ] Taylorův polynom (limitní forma)
+  - [ ] Integrály a jejich aplikace 🟪
+    - [ ] primitivní funkce: definice a metody výpočtu (substituce, per-partes)
+    - [ ] Riemannův integrál: definice, souvislost s primitivní funkcí (Newtonovým integrálem)
+    - [ ] aplikace
+      - [ ] odhady součtu řad (konečných i nekonečných)
+      - [ ] obsahy rovinných útvarů
+      - [ ] objemy a povrchy rotačních útvarů v prostoru
+      - [ ] délka křivky

@@ -25,8 +25,8 @@
   - [ ] Quicksort
   - [ ] dolní odhad složitosti porovnávacích třídicích algoritmů
 - [ ] **Grafové algoritmy**
-  - [ ] prohledávání do šířky a do hloubky
-  - [ ] topologické třídění orientovaných grafů
-  - [ ] nejkratší cesty v ohodnocených grafech (Dijkstrův a Bellmanův-Fordův algoritmus)
+  - [x] prohledávání do šířky a do hloubky
+  - [x] topologické třídění orientovaných grafů
+  - [x] nejkratší cesty v ohodnocených grafech (Dijkstrův a Bellmanův-Fordův algoritmus)
   - [ ] minimální kostra grafu (Jarníkův a Borůvkův algoritmus)
   - [ ] toky v sítích (Ford-Fulkerson algoritmus)

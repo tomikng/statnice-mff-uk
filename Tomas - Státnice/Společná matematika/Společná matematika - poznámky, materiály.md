@@ -7,3 +7,5 @@ tags:
 ## Teorie Grafů
 
 ## Diskrétní matematika
+## PAST
+[[Pravdepodobnost a statistika]]
